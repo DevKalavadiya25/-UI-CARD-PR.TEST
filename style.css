@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    margin:0 auto;
+
+}
+.wrapper{
+    width:370px;
+    height:630px;
+    /* border:1px solid rgb(66, 65, 65); */
+    margin-top:25px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    overflow: hidden;
+    box-shadow: 10px 6px 13px 2px gray;
+}
+.header{
+    width:370px;
+    height:100px;
+    /* border:1px solid rgb(16, 16, 16); */
+    /* align-items: center;
+    justify-content: center; */
+    font-size:40px;
+    line-height:55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    
+}
+.box-image{
+    width:350px;
+    height:300px;
+    /* border:1px solid rgb(16, 16, 16); */
+    margin-top:70px;
+    /* border-radius:25px; */
+}
+
+.product{
+    border-radius:20px;
+    border-bottom-right-radius:110px;
+}
+.raduce-box{
+    width:100px;
+    height:100px;
+    /* border:1px solid rgb(219, 12, 12); */
+    z-index:500;
+   margin-left:16.5rem;
+    position: absolute;
+    margin-top:-100px;
+    border-radius:45%;
+    background-color: rgb(252, 252, 252);
+  
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:red; */
+
+}
+.round{
+    width:70px;
+    height:70px;
+    /* border:1px solid rgb(24, 23, 23); */
+    background-color:rgb(250, 186, 140);
+    border-radius:50%;
+}
+.arrow{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 0 auto; */
+    width:50px;
+    margin-left:10px;
+    margin-top:8px;
+    
+}
+.arrow:hover{
+    scale:1.1;
+}
+
+
+.product:hover{
+    scale:1.02;
+}
+.foot-head{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p_l{
+    /* margin:0 auto; */
+    margin-left:15px;
+}
+
+.h1_l{
+    margin-left:15px;
+
+}
+
+button {
+    padding: 7px;
+    margin-top: 20px;
+    /* display: flex; */
+    /* gap: 15px; */
+    margin-left: 15px;
+}
+.btn-1{
+    background-color:#d3b19a;
+}
+.btn-2{
+    background-color:#70b3b1;
+    width:88px;
+}
+.btn-1:hover{
+    scale:1.01;
+}
+.btn-2:hover{
+    scale:1.01;
+}
